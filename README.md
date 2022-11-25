@@ -30,12 +30,15 @@ Run
 
     `python3 generate_embeddings.py` 
 
-    usage: generate_embeddings.py [-h] [--graphname [GRAPHNAME]]
+Usage:
+
+    generate_embeddings.py [-h] [--graphname [GRAPHNAME]]
                                   [--embedding_size EMBEDDING_SIZE]
                                   [--depth DEPTH] [--method [METHOD]]
                                   [--sketchsize SKETCHSIZE]
+
     
-    The default arguments are Cora, embedding size 5, depth 2, default method L2, and sketchsize 1. (See the paper for details.)
+The default arguments are Cora, embedding size 5, depth 2, default method L2, and sketchsize 1. (See the paper for details.)
 
 3. **Train a linear model**
 
