@@ -47,4 +47,6 @@ Run
 
     For comparison, one can also train a kernel SVM model
 
+## Note 
+This version only supports a single core embedding training. Please contact kutzkov_at_gmail.com for the working code for the multicore version.
 
