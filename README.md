@@ -21,14 +21,16 @@ The file merged should be then stored in the folder named *random*. (The submitt
 ## Running the code
 
 1. **Preprocess a graph**
+ 
     
-    python3 preprocess.py [--graphname < name >]
+       python3 preprocess.py [--graphname < name >]
+
 The default name is Cora.
 
 2. **Train embeddings**
-Run 
 
-    `python3 generate_embeddings.py` 
+
+       python3 generate_embeddings.py` 
 
 Usage:
 
@@ -42,14 +44,18 @@ The default arguments are Cora, embedding size 5, depth 2, default method L2, an
 
 3. **Train a linear model**
 
-    `python3 linear_svm_training.py` 
+    python3 linear_svm_training.py
 
-    Train and evaluate a linear SVM model for node classification for a given graph and a given method for embedding generation. The parameters are the as above, just type the option `--help` for instructions.
+Train and evaluate a linear SVM model for node classification for a given graph and a given method for embedding generation. The parameters are the same as above, just type the option `--help` for instructions.
 
 4. (Optional) *Train a kernel model*
 
-    For comparison, one can also train a kernel SVM model
+For comparison, one can also train a kernel SVM model with
+    
+    python3 kernel_svm_training.py
 
-## Note 
-This version only supports a single core embedding training. Please contact kutzkov_at_gmail.com for the working code for the multicore version.
+
+## Notes 
+- When specifying the hop neighborhood depth, we now generate all embeddings with depth k <= d (in order to run all experiments for the paper more easily). For larger k and larger graphs the space complexity can be however optimized if we generate only embeddings with k=d.
+- This version of the code only supports a single core embedding training. Please contact kutzkov_at_gmail.com for the working code for the multicore version.
 
