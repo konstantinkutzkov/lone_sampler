@@ -7,11 +7,10 @@ The directory contains code for the AAAI 2023 paper Lone Sampler: Graph node emb
 1. **Python packages** 
 The code should work with a standard Python3 version. In addition, one needs some widely used libraries like pandas, numpy, networkx, scikit-learn, etc. The file requirements.txt gives a list of the package versions we used.
 
-2. **Graphs** The provided package contains the Cora graph ([https://graphsandnetworks.com/the-cora-dataset/](URL)) and instructions how to preprocess it. The Citeseer graph ([http://networkrepository.com/citeseer.php](URL)) can be preprocessed using the same code. For the other 4 graphs used in the experimental evaluation, we refer to the respective notebooks. They contain instructions where to download and unpack the data. 
+2. **Graphs** The provided package contains the [Cora graph](https://graphsandnetworks.com/the-cora-dataset/) and instructions how to preprocess it. The [Citeseer graph](http://networkrepository.com/citeseer.php) can be preprocessed using the same code. For the other 4 graphs used in the experimental evaluation, we refer to the respective notebooks. They contain instructions where to download and unpack the data. 
 
 3. **Random numbers**
-For tabulation hashing we use a library with preprocessed random numbers that can be downloaded from [https://github.com/jeffThompson/DiehardCDROM/tree/master/CD-ROM
-](URL) For larger graphs, one needs to bundle several of the random files together, for example on a Unix based OS
+For tabulation hashing we use a library with preprocessed random numbers that can be downloaded from [here](https://github.com/jeffThompson/DiehardCDROM/tree/master/CD-ROM). For larger graphs, one needs to bundle several of the random files together, for example on a Unix based OS
     
 
     cat bits.01 bits.02 bits.03 > merged
