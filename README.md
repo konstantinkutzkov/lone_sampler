@@ -29,7 +29,7 @@ The default name is Cora.
 2. **Train embeddings**
 
 
-       python3 generate_embeddings.py` 
+       python3 generate_embeddings.py 
 
 Usage:
 
