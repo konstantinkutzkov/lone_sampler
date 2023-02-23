@@ -1,6 +1,6 @@
 # LoNe sampler 
 
-The directory contains code for the AAAI 2023 paper Lone Sampler: Graph node embeddings by coordinated local neighborhood sampling. The paper can be found on [arxiv](https://arxiv.org/abs/2211.15114), and a blog post describing some of the main ideas [here](https://medium.com/towards-data-science/machine-learning-on-graphs-part-4-44b690ec2ba3).
+The directory contains code for the AAAI 2023 paper *Lone Sampler: Graph node embeddings by coordinated local neighborhood sampling*. The paper can be found on [arxiv](https://arxiv.org/abs/2211.15114), and a blog post describing some of the main ideas [here](https://medium.com/towards-data-science/machine-learning-on-graphs-part-4-44b690ec2ba3).
 
 ## Prerequisites
 
